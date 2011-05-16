@@ -1,0 +1,182 @@
+# Russian translations for PACKAGE package.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <lothix@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-22 14:34-0600\n"
+"PO-Revision-Date: 2010-01-22 14:36-0600\n"
+"Last-Translator:  <lothix@gmail.com>\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: application.py:72
+msgid "Fetching data, please wait..."
+msgstr "Данные нагружают, пожалуйста ждут..."
+
+#: application.py:112
+msgid "Disconnected"
+msgstr "Отсутствие соединения"
+
+#: application.py:118
+msgid "All good!"
+msgstr "Все хорошо!"
+
+#: application.py:119
+msgid "(no new alerts)"
+msgstr "(отсутствие новых сигналов тревога)"
+
+#: application.py:121
+msgid "No services or hosts found in Nagios"
+msgstr "Отсутствие обслуживания или хозяин найденные в Nagios"
+
+#: application.py:124
+msgid "No problems with services or hosts found in Nagios"
+msgstr "Никакие проблемы с обслуживаниями или хозяином не нашли в Nagios"
+
+#: application.py:141
+#, python-format
+msgid "%d WARNING"
+msgstr "%d ПРЕДУПРЕЖДЕНИЕ"
+
+#: application.py:144
+#, python-format
+msgid "%d CRITICAL"
+msgstr "%d КРИТИЧЕСКО"
+
+#: application.py:148
+#, python-format
+msgid "%d OK"
+msgstr "%d НОРМАЛЬНО"
+
+#: application.py:202 application.py:290 application.py:361
+msgid "Nagios Configuration"
+msgstr "Конфигурация Nagios"
+
+#: application.py:209 application.py:484
+msgid "Refresh Settings"
+msgstr "Установки загрузки"
+
+#: application.py:216
+msgid "Force Refresh"
+msgstr "Немедленно Загрузка"
+
+#: application.py:222 application.py:572
+msgid "About Maegios"
+msgstr "О Maegios"
+
+#: application.py:231
+msgid "All Hosts"
+msgstr "Все серверы"
+
+#: application.py:238
+msgid "Problems"
+msgstr "Проблемы"
+
+#: application.py:245
+msgid "New Alerts"
+msgstr "Новые сигналы тревога"
+
+#: application.py:260
+msgid "No menu option has been selected yet."
+msgstr ""
+
+#: application.py:286
+msgid "Please configure Maegios with information about your Nagios instance."
+msgstr "Пожалуйста установите Maegios с информацией о вашем примере Nagios."
+
+#: application.py:363
+msgid "Nagios URL:"
+msgstr "URL Nagios:"
+
+#: application.py:366
+msgid "Nagios Username:"
+msgstr "Nagios Имя:"
+
+#: application.py:369
+msgid "Nagios Password:"
+msgstr "Nagios Пароль:"
+
+#: application.py:396 application.py:505
+msgid "Save"
+msgstr "Сохранено"
+
+#: application.py:401 application.py:510
+msgid "Clear"
+msgstr "Старт снова"
+
+#: application.py:466
+msgid ""
+"Your Nagios configuration has been saved, and will now be used to pull "
+"information from your Nagios instance."
+msgstr "Ваша конфигурация Nagios была сохранена, и теперь будет использована для того чтобы вытянуть информацию от вашего примера Nagios."
+
+#: application.py:486
+msgid "Refresh Interval:"
+msgstr "Освежите интервал:"
+
+#: application.py:489
+msgid "Attempts:"
+msgstr "Попытки:"
+
+#: application.py:492
+msgid "minutes"
+msgstr "минуты"
+
+#: application.py:556
+msgid ""
+"Your refresh settings have been saved, and will now be used to pull "
+"information from your Nagios instance."
+msgstr "Ваша конфигурация Nagios была сохранена, и теперь будет использована для того чтобы вытянуть информацию от вашего примера Nagios."
+
+#: application.py:575
+msgid "Tested to work with Nagios versions 2.8, 3.0.6"
+msgstr "Испытано для работы с версиями 2.8 Nagios, 3.0.6"
+
+#: application.py:576
+msgid "License: GNU General Public License verison 3"
+msgstr ""
+
+#: application.py:577
+msgid ""
+"Credits: Vladimir Semenov <vlad@vsemenov.com>"
+msgstr ""
+
+#: widget.py:230
+msgid "Disco'd"
+msgstr ""
+
+#: widget.py:246 widget.py:253
+msgid "Alerts"
+msgstr "Сигналы"
+
+#: widget.py:247
+msgid "Critical Alerts"
+msgstr "Критические сигналы"
+
+#: widget.py:249 widget.py:256
+msgid "Alert"
+msgstr "Сигнал"
+
+#: widget.py:250
+msgid "Critical Alert"
+msgstr "Критический сигнал"
+
+#: widget.py:254
+msgid "Warning Alerts"
+msgstr "Предупреждающие сигналы"
+
+#: widget.py:257
+msgid "Warning Alert"
+msgstr "Предупреждающий сигнал"
+
+#: widget.py:261
+msgid "All Good!"
+msgstr "Все хорошо!"

@@ -1,0 +1,8 @@
+
+[Desktop Entry]
+Name=Maegios
+Comment=Nagios Integration
+Type=python
+X-Path=maegios_desktop.py
+
+Name[en_US]=maegios.desktop

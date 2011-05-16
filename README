@@ -1,0 +1,19 @@
+Maegios is a Nagios client for Maemo 5 written in python
+--------------------------------------------------------
+Receive Nagios alerts on your Maemo device. Monitor status of hosts and services in your Nagios instance. Desktop widget and vibration, sound, light, text alerts are included.
+
+Installation
+------------
+Maegios can be installed from extras-devel repository: http://repository.maemo.org/extras-devel.
+
+Build Instructions:
+-------------------
+# Install Maemo 5 SDK
+run-standalone.sh python2.5 build_maegios.py
+cd .py2deb_build_folder/maegios
+dpkg-buildpackage -rfakeroot
+mkdir -p ~/releases/maegios/
+cp ../maegios_<version>_all.deb ~/releases/maegios/
+cd ~/releases/maegios/
+maemo-optify-deb maegios_<version>_all.deb
+

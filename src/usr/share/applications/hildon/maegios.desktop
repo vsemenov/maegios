@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Maegios
+GenericName=Nagios Integration
+Comment=Application for integration with a Nagios installation.
+Exec=/usr/bin/maegios
+Icon=maegios
+Terminal=false
+Type=Application
+Categories=Network;Utility;
+StartupWMClass=Maegios
+
